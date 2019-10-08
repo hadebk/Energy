@@ -18,4 +18,10 @@ $(document).ready(function() {
     $(this).find('img').removeClass("animated flipInY")
   })
 
+  // show image in modal
+  $('.img').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#imagemodal').modal('show');
+		});
+
 })
