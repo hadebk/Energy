@@ -1,59 +1,59 @@
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 @font-face {
-  font-family: Poppins-Regular;
+  font-family: 'Poppins-Regular';
   src: url('../fonts/Poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
-  font-family: Poppins-Light;
+  font-family: 'Poppins-Light';
   src: url('../fonts/Poppins/Poppins-Light.ttf');
 }
 
 @font-face {
-  font-family: Poppins-ExtraLight;
+  font-family: 'Poppins-ExtraLight';
   src: url('../fonts/Poppins/Poppins-ExtraLight.ttf');
 }
 
 @font-face {
-  font-family: Poppins-Medium;
+  font-family: 'Poppins-Medium';
   src: url('../fonts/Poppins/Poppins-Medium.ttf');
 }
 
 @font-face {
-  font-family: Poppins-Italic;
+  font-family: 'Poppins-Italic';
   src: url('../fonts/Poppins/Poppins-Italic.ttf');
 }
 
 @font-face {
-  font-family: Poppins-Bold;
+  font-family: 'Poppins-Bold';
   src: url('../fonts/Poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
-  font-family: Poppins-SemiBold;
+  font-family: 'Poppins-SemiBold';
   src: url('../fonts/Poppins/Poppins-SemiBold.ttf');
 }
 
 /*---------------------------------------------*/
 @font-face {
-  font-family: PlayfairDisplay-Regular;
+  font-family: 'PlayfairDisplay-Regular';
   src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf');
 }
 
 @font-face {
-  font-family: PlayfairDisplay-Bold;
+  font-family: 'PlayfairDisplay-Bold';
   src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf');
 }
 
 /*---------------------------------------------*/
 @font-face {
-  font-family: Montserrat-Regular;
+  font-family: 'Montserrat-Regular';
   src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
 }
 
 @font-face {
-  font-family: Montserrat-Bold;
+  font-family: 'Montserrat-Bold';
   src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
 }
 
@@ -63,8 +63,8 @@
 }
 
 * {
-  font-family: Poppins-Regular;
-  box-sizing: border-box;
+  font-family: 'Poppins-Regular';
+  box-sizing: 'border-box';
 }
 
 #main-box {
@@ -120,7 +120,7 @@
 #navbar-box #nav-menu ul li a {
   color: var(--dark_blue_color);
   cursor: pointer;
-  font-family: Poppins-Regular;
+  font-family: 'Poppins-Regular';
   font-size: 16px;
   margin-top: 17px;
   -webkit-transition: all 500ms ease-out;
@@ -157,7 +157,7 @@
 }
 
 #header-box #header-text h1 {
-  font-family: Poppins-Bold;
+  font-family: 'Poppins-Bold';
   font-size: 50px;
   line-height: 1.1;
   color: var(--dark_blue_color);
@@ -177,7 +177,7 @@
   border-radius: 30px;
   min-width: 180px;
   height: 50px;
-  font-family: Poppins-Regular;
+  font-family: 'Poppins-Regular';
   font-size: 17px;
   border: 2px solid var(--dark_blue_color);
   -webkit-transition: all 200ms ease-out;
@@ -204,11 +204,10 @@
 }
 
 #profile-box #profile-text h1 {
-  font-family: Poppins-Bold;
+  font-family: 'Poppins-Bold';
   font-size: 40px;
   line-height: 1.1;
   color: var(--dark_blue_color);
-  margin-top: 50px;
   margin-bottom: 30px;
 }
 
@@ -229,8 +228,8 @@
 }
 
 #services-box #services-titel h1 {
-  font-family: Poppins-Bold;
-  font-size: 40px;
+  font-family: 'Poppins-Bold';
+  font-size: 50px;
   line-height: 1.1;
   color: var(--dark_blue_color);
   text-align: center;
@@ -277,7 +276,7 @@
 
 /* start profile company */
 #get-started-box {
-  margin-top: 130px;
+  margin-top: 200px;
   padding: 20px;
   background-color: var(--dark_blue_color);
   border-radius: 30px;
@@ -295,7 +294,7 @@
 }
 
 #get-started-box #get-started-text h1 {
-  font-family: Poppins-Bold;
+  font-family: 'Poppins-Bold';
   font-size: 40px;
   line-height: 1.3;
   color: #fff;
@@ -310,8 +309,8 @@
 }
 
 #clients-box #clients-titel h1 {
-  font-family: Poppins-Bold;
-  font-size: 40px;
+  font-family: 'Poppins-Bold';
+  font-size: 50px;
   line-height: 1.1;
   color: #fff;
   text-align: center;
@@ -330,11 +329,12 @@
 /* start portifilo*/
 #portifilo-box {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #portifilo-box #portifilo-titel h1 {
-  font-family: Poppins-Bold;
-  font-size: 40px;
+  font-family: 'Poppins-Bold';
+  font-size: 50px;
   line-height: 1.1;
   color: var(--dark_blue_color);
   text-align: center;
@@ -385,52 +385,201 @@
   transition: all .3s;
 }
 
-#portifilo-box .portifilo p{
+#portifilo-box .portifilo p {
   color: var(--dark_blue_color);
-font-size: 20px;
-padding: 10px 0;
-text-align: center;
+  font-size: 20px;
+  padding: 15px 0;
+  text-align: center;
 }
 
 /* start modal */
-#imagemodal{
-  z-index:9999;
-      background-color: #000000d1;
+#imagemodal {
+  z-index: 9999;
+  background-color: #000000d1;
 }
 
-.modal-dialog{
+.modal-dialog {
   width: 80%;
   margin-top: 30px;
 }
 
-.modal-body{
+.modal-body {
   padding: 0;
 }
 
-.modal-content{
+.modal-content {
   background-color: none;
 }
 
 .modal-body {
-    position: relative;
-    padding:0px;
-    padding-top: 0px;
+  position: relative;
+  padding: 0px;
+  padding-top: 0px;
 }
 
 .modal-body .close {
   color: white;
-    position: absolute;
-    float: right;
-    top: -13px;
-    right: -46px;
-    font-size: 40px;
-    opacity: 1;
+  position: absolute;
+  float: right;
+  top: -13px;
+  right: -46px;
+  font-size: 40px;
+  opacity: 1;
 }
 
-.modal-body img{
+.modal-body img {
   width: 100%;
-    padding: 0;
+  padding: 0;
 }
+
+/* start contactus */
+#contactus-box{
+  background-color: var(--dark_blue_color);
+  color: #fff;
+}
+
+#contactus-box #contactus-titel h1{
+  font-family: 'Poppins-Bold';
+  font-size: 50px;
+  line-height: 1.1;
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+#contactus-box h4{
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform:  uppercase;
+}
+
+#contactus-box h4::before{
+  position: absolute;
+content: '';
+top: 42px;
+width: 60px;
+height: 3px;
+background-color: var(--gold_color);
+}
+
+#contactus-box #left p{
+  font-size: 16px;
+  line-height: 1.5;
+  font-size: 16px;
+  color:#999;
+}
+
+#contactus-box #left #contact{
+  margin-top: 50px;
+  color:#fff;
+}
+
+#contactus-box #left #contact div{
+  margin-bottom: 20px;
+}
+
+#contactus-box #left #contact span{
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+
+}
+
+#contactus-box #left #contact span > img {
+  width:20px;
+  height:20px;
+}
+
+#contactus-box #left #social-icons{
+  margin-top:50px;
+}
+
+#contactus-box #left #social-icons div > div{
+  float: left;
+  padding-right: 20px;
+  width: 50px;
+}
+
+#contactus-box #left #social-icons img{
+  max-width: 100%;
+}
+
+#contactus-box #mid a{
+  display: inline-block;
+  color:#999;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+#contactus-box #mid a:hover{
+  color: #fff;
+}
+
+#contactus-box #mid #links a::before{
+  content: "\f101";
+font-family: 'FontAwesome';
+color:#999;
+margin-right: 6px;
+}
+
+#contactus-box #mid img{
+    max-width: 50%;
+    margin-top: 80px;
+
+}
+
+#contactus-box #right input{
+  height: 50px;
+  border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 15px 20px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+#contactus-box #right input, #contactus-box #right textarea{
+  background-color: var(--dark_blue_color);
+  border: 1px solid #222266;
+  color:#fff;
+}
+
+#contactus-box #right input:focus, #contactus-box #right textarea:focus{
+  border: 1px solid var(--gold_color);
+  box-shadow: none;
+}
+
+#contactus-box #right #btn-submit{
+  color: var(--dark_blue_color);
+  background-color: var(--gold_color);
+  border-radius: 30px;
+  min-width: 150px;
+  height: 50px;
+  font-family: 'Poppins-Regular';
+  font-size: 17px;
+  border: 0;
+  text-transform:  uppercase;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+ #copyright{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: #010122;
+  color:#999;
+}
+
 
 /*------------------------responsive------------------------
 ------------------------------------------------------------
@@ -504,16 +653,33 @@ text-align: center;
     margin-top: 50px;
   }
 
-  .modal-dialog{
+  .modal-dialog {
     width: 100%;
-margin: 0;
-margin-top: 50px;
+    margin: 0;
+    margin-top: 50px;
   }
 
   .modal-body .close {
     top: -40px;
     right: 10px;
     font-size: 40px;
+  }
+
+  #contactus-box #contactus-titel h1{
+    font-size:40px;
+  }
+
+  #contactus-box #left{
+    margin-bottom: 30px;
+  }
+
+  #contactus-box #mid{
+    margin-bottom: 30px;
+  }
+
+  #contactus-box #mid img {
+    max-width: 50%;
+    margin-top: 30px;
 }
 
 }
@@ -564,6 +730,11 @@ margin-top: 50px;
   #clients-box {
     margin-top: 50px;
   }
+
+  #contactus-box #right{
+    margin-top: 40px;
+  }
+
 }
 
 @media (min-width:992px) and (max-width:1199px) {
