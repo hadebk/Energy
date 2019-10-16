@@ -436,6 +436,7 @@
 #contactus-box{
   background-color: var(--dark_blue_color);
   color: #fff;
+  padding-bottom: 20px;
 }
 
 #contactus-box #contactus-titel h1{
