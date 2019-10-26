@@ -591,7 +591,7 @@
   box-shadow: none;
 }
 
-#contactus-box #right #btn-submit {
+#contactus-box #right #submit {
   color: var(--dark_blue_color);
   background-color: var(--gold_color);
   border-radius: 30px;
