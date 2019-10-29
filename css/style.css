@@ -136,6 +136,7 @@
 #navbar-box #nav-menu-mob {
     z-index: 1;
     position: relative;
+    height: 0;
 }
 
 #navbar-box #nav-menu-mob ul {
