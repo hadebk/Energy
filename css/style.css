@@ -1,5 +1,8 @@
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 @font-face {
     font-family: 'Poppins-Regular';
     src: url('../fonts/Poppins/Poppins-Regular.ttf');
@@ -209,14 +212,16 @@
 }
 
 #header-box #header-text #button-more {
-    color: var(--dark_blue_color);
-    background-color: var(--gold_color);
+  background-image: -moz-linear-gradient(23deg,#465eeb 22%,#3888e6 65%,#2ab2e1 100%);
+      background-image: -webkit-linear-gradient(23deg,#465eeb 22%,#3888e6 65%,#2ab2e1 100%);
+      background-image: -ms-linear-gradient(23deg,#465eeb 22%,#3888e6 65%,#2ab2e1 100%);
+      color: #fff;
     border-radius: 30px;
     min-width: 180px;
     height: 50px;
     font-family: 'Poppins-Regular';
     font-size: 17px;
-    border: 2px solid var(--dark_blue_color);
+    border: 0;
     -webkit-transition: all 200ms ease-out;
     -moz-transition: all 200ms ease-out;
     -o-transition: all 200ms ease-out;
@@ -246,7 +251,7 @@
     font-size: 40px;
     line-height: 1.1;
     color: var(--dark_blue_color);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 #profile-box #profile-text p {
@@ -271,7 +276,7 @@
     line-height: 1.1;
     color: var(--dark_blue_color);
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 #services-box .services {
@@ -315,9 +320,12 @@
 /* start profile company */
 #get-started-box {
     margin-top: 200px;
+    margin-bottom: 230px;
     padding: 20px;
-    background-color: var(--dark_blue_color);
     border-radius: 30px;
+    background-image: -moz-linear-gradient(23deg,#465eeb 22%,#3888e6 65%,#2ab2e1 100%);
+    background-image: -webkit-linear-gradient(23deg,#465eeb 22%,#3888e6 65%,#2ab2e1 100%);
+    background-image: -ms-linear-gradient(23deg,#465eeb 22%,#3888e6 65%,#2ab2e1 100%);
 }
 
 #get-started-box #get-started-photo {
@@ -352,8 +360,8 @@
     line-height: 1.1;
     color: #fff;
     text-align: center;
-    margin-bottom: 70px;
-    margin-top: 70px;
+    margin-bottom: 120px;
+    margin-top: 100px;
 }
 
 #clients-box .cleint-img {}
@@ -366,7 +374,7 @@
 
 /* start portifilo*/
 #portifilo-box {
-    margin-top: 50px;
+    margin-top: 120px;
     margin-bottom: 50px;
 }
 
@@ -376,7 +384,7 @@
     line-height: 1.1;
     color: var(--dark_blue_color);
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom:100px;
 }
 
 #portifilo-box .portifilo {
@@ -432,7 +440,7 @@
 
 /* start modal */
 #imagemodal {
-    z-index: 9999;
+    z-index: 999999;
     background-color: #000000d1;
 }
 
@@ -515,6 +523,14 @@
     color: #fff;
 }
 
+#contactus-box #left #contact a{
+  color:#fff;
+}
+
+#contactus-box #left #contact a:hover{
+  text-decoration: none;
+}
+
 #contactus-box #left #contact div {
     margin-bottom: 20px;
 }
@@ -542,6 +558,16 @@
 
 #contactus-box #left #social-icons img {
     max-width: 100%;
+    -ms-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#contactus-box #left #social-icons img:hover{
+  cursor: pointer;
+-ms-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+transform: rotate(360deg);
 }
 
 #contactus-box #mid a {
@@ -566,7 +592,7 @@
 
 #contactus-box #mid img {
     max-width: 50%;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 #contactus-box #right img {
@@ -588,7 +614,7 @@
     height: 60px;
     width: 60px;
     position: fixed;
-    bottom: 5%;
+    bottom: 60px;
     right: 5%;
     display: none;
     z-index: 99999;
@@ -607,7 +633,7 @@
 }
 
 /*------------------------responsive------------------------
------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------*/
 @media (max-width:767px) {
 
@@ -654,16 +680,22 @@
         line-height: 1.7;
     }
 
-    #services-box {
-        margin-top: 0px;
-    }
+    #profile-box #profile-photo img {
+      margin-top: 30px;
+      margin-bottom: 50px;
+}
+
+#services-box {
+    margin-top: 0;
+}
 
     #get-started-box {
         margin-top: 20px;
+        margin-bottom: 70px;
         padding: 20px;
         margin-left: 10px;
         margin-right: 10px;
-        background-color: #fff;
+        background-image: none;
     }
 
     #get-started-box #get-started-text h1 {
@@ -707,6 +739,12 @@
         margin-bottom: 20px;
     }
 
+    #contactus-box #logo-xs {
+    max-width: 50%;
+    margin-top: 30px;
+margin-bottom: 20px;
+}
+
     #contactus-box #mid {
         margin-bottom: 30px;
     }
@@ -722,7 +760,7 @@
     }
 
     #contactus-box #right img {
-        margin-bottom: 40px;
+        margin-bottom: 70px;
         margin-top: 0;
     }
 }
@@ -761,13 +799,15 @@
         margin-top: 80px;
     }
 
-    #services-box {
-        margin-top: 0px;
-    }
+    #profile-box #profile-photo img {
+      margin-top: 50px;
+      margin-bottom: 70px;
+}
 
     #get-started-box {
-        margin-top: 30px;
-        background-color: #fff;
+      margin-top: 100px;
+  margin-bottom: 100px;
+        background-image: none;
     }
 
     #get-started-box #get-started-text h1 {
@@ -813,7 +853,7 @@
     }
 
     #header-box {
-        margin-top: 80px;
+        margin-top: 100px;
     }
 
     #header-box #header-text h1 {
@@ -823,7 +863,6 @@
     #profile-box #profile-text h1 {
         font-size: 35px;
         margin-top: 0px;
-        margin-bottom: 20px;
     }
 
     #profile-box #profile-text p {
@@ -831,7 +870,8 @@
     }
 
     #get-started-box {
-        margin-top: 100px;
+      margin-top: 150px;
+  margin-bottom: 100px;
     }
 
     #get-started-box #get-started-photo img {

@@ -23,8 +23,8 @@ $(document).ready(function() {
           "height": "auto"
         })
         $('#nav-menu-mob .nav').css({
-          "clip-path": "circle(1000px at 90% -10%)",
-          "-webkit-clip-path": "circle(1000px at 90% -10%)",
+          "clip-path": "circle(1000px at 50% -10%)",
+          "-webkit-clip-path": "circle(1000px at 50% -10%)",
           "pointer-events": "all",
 
         })
@@ -88,16 +88,25 @@ $(document).ready(function() {
     }, 1000);
   });
 
+
+  // smooth scroll to section when click on it in footer
+  $("#contactus-box #mid #links a").click(function() {
+    $("html,body").animate({
+      scrollTop: $("#" + $(this).data("value")).offset().top - 75
+    }, 1000);
+  });
+
+
   // move get strarted image
   var win = $(window).width();
   if (win >= 992) {
     function get_started_iamge() {
       $("#get-started-photo img").animate({
-        paddingTop: "15px"
-      }, 2000, function() {
+        paddingTop: "20px"
+      }, 1800, function() {
         $(this).animate({
           paddingTop: "0px"
-        }, 2000, function() {
+        }, 1800, function() {
           get_started_iamge();
         });
       });

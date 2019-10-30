@@ -28,8 +28,6 @@
   <!--==========================================================================================-->
   <link rel="stylesheet" href="OwlCarousel2-2.3.4/owl.carousel.min.css" />
   <!--==========================================================================================-->
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-  <!--==========================================================================================-->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <!--==========================================================================================-->
   <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -72,6 +70,8 @@
               <img src="images/icons/double-left-chevron.svg" />
             </div>
           </div>
+        </div>
+        <div class="container-fluid" style="padding:0">
           <div class="row">
             <div class="hidden-lg hidden-md col-sm-12 col-xs-12" id="nav-menu-mob">
               <ul class="nav">
@@ -177,7 +177,7 @@
     <div id="get-started-box" class="container">
       <div class="row">
         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12" id="get-started-text">
-          <h1>GET STARTED NOW AND GROW YOUR BUESSNIS</h1>
+          <h1>GET STARTED NOW & GROW YOUR BUESSNIS</h1>
         </div>
         <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12" id="get-started-photo">
           <img src="images/undraw_Outer_space_drqu.svg" alt="get started image">
@@ -288,9 +288,15 @@
             <h4>About Company</h4>
             <p>help in market and other place to be on of the must common in the world, help in market and other place to be on help in market and other place to be on of the must common in the world</p>
             <div id="contact">
-              <div><span><img src="./images/icons/006-placeholder.svg" alt="location"></span>Egypt - Tanta</div>
-              <div><span><img src="./images/icons/004-email.svg" alt="email"></span>info@energy.com</div>
-              <div><span><img src="./images/icons/005-call.svg" alt="phone"></span>01022222222</div>
+              <div><span><img src="./images/icons/006-placeholder.svg" alt="location"></span>
+                Egypt - Tanta
+              </div>
+              <div><span><img src="./images/icons/004-email.svg" alt="email"></span>
+                <a href="mailto:info@energy.com" target="_blank" title="send email">info@energy.com</a>
+              </div>
+              <div><span><img src="./images/icons/005-call.svg" alt="phone"></span>
+                <a href="tel:01022222222">01022222222</a>
+              </div>
             </div>
             <div id="social-icons">
               <div>
@@ -309,26 +315,32 @@
           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="mid">
             <h4>Useful Link</h4>
             <div id="links">
-              <div><a>Profile Company</a></div>
-              <div><a>services</a></div>
-              <div><a>cleint</a></div>
-              <div><a>portifilo</a></div>
+              <div><a href="#main-box" data-value="main-box">Home</a></div>
+              <div><a href="#profile-box" data-value="profile-box">Profile Company</a></div>
+              <div><a href="#services-box" data-value="services-box">services</a></div>
+              <div><a href="#clients-box" data-value="clients-box">cleint</a></div>
+              <div><a href="#portifilo-box" data-value="portifilo-box">portifilo</a></div>
             </div>
-            <img alt="logo" src="https://www.pmg.com/wp-content/themes/pmg-2018/img/pmg_logo.svg">
+            <div style="text-align: center" class="hidden-xs">
+              <img alt="logo" src="https://www.pmg.com/wp-content/themes/pmg-2018/img/pmg_logo.svg">
+            </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="right">
             <img src="images/contact.png" alt="contact us">
           </div>
         </div><!-- end of 2 row-->
-        <!-- start button scroll to top -->
-        <div class="scroll-to-top">
-          <span class="scroll-icon">
-            <i class="fa fa-rocket"></i>
-          </span>
+        <div style="text-align: center" class="hidden-lg hidden-md hidden-sm">
+          <img id="logo-xs"src="https://www.pmg.com/wp-content/themes/pmg-2018/img/pmg_logo.svg"  alt="logo">
         </div>
-        <!-- start button scroll to top -->
       </div><!-- end of container-->
     </div>
+    <!-- start button scroll to top -->
+    <div class="scroll-to-top">
+      <span class="scroll-icon">
+        <i class="fa fa-rocket"></i>
+      </span>
+    </div>
+    <!-- start button scroll to top -->
     <div id="copyright" class="container-fluid">
       Copyright Energy<i class="fa fa-copyright"></i><span> 2019. All rights reserved</span>
     </div>
