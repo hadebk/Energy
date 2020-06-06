@@ -12,7 +12,9 @@ $(document).ready(function() {
           "pointer-events": "none",
         })
         $("#nav-hamburger img").css({
-          "transform": "rotate(0deg)"
+          "transform": "rotate(0deg)",
+          "-webkit-transform": "rotate(0deg)",
+          "-ms-transform": "rotate(0deg)"
         })
         $("#nav-menu-mob").css({
           "height": "0"
@@ -29,7 +31,9 @@ $(document).ready(function() {
 
         })
         $("#nav-hamburger img").css({
-          "transform": "rotate(180deg)"
+          "transform": "rotate(180deg)",
+          "-webkit-transform": "rotate(180deg)",
+          "-ms-transform": "rotate(180deg)"
         })
       }
     })
