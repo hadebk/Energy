@@ -216,7 +216,7 @@
 }
 
 #header-box #header-text #button-more {
-      background-image: -ms-linear-gradient(23deg,#465eeb 22%,#3888e6 65%,#2ab2e1 100%);
+      background-image: linear-gradient(23deg,#465eeb 22%,#3888e6 65%,#2ab2e1 100%);
       color: #fff;
     border-radius: 30px;
     min-width: 180px;
@@ -326,7 +326,7 @@
     margin-bottom: 230px;
     padding: 20px;
     border-radius: 30px;
-    background-image: -ms-linear-gradient(23deg,#465eeb 22%,#3888e6 65%,#2ab2e1 100%);
+    background-image: linear-gradient(23deg,#465eeb 22%,#3888e6 65%,#2ab2e1 100%);
 }
 
 #get-started-box #get-started-photo {
